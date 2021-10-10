@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* .main{
+            display: grid;
+            grid-template-rows: 20vh 60vh;
+        }
+        .a{
+            border: 1px solid black;
+        }
+        .b{
+            border: 1px solid black;
+
+        } */
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+    <div class="main">
+
+        <div class="a">
+
+        </div>
+        <div class="b">
+
+        </div>
+    </div>
+     -->
+
+    <!-- <table id="container">
+        <tr>
+            <th>Sno</th>
+            <th>Task</th>
+            <th>Date</th>
+            <th>Action</th>
+
+        </tr>
+    </table> -->
+
+    <!-- <script>
+        var p = document.createElement('tr');
+        var text = document.createTextNode('I am p tag');
+        p.appendChild(text);
+        var div = document.getElementById('container');
+        div.appendChild(p);
+    </script> -->
+
+
+    <input type="text" id="input">
+    <button id="btn">Click</button>
+
+    <script>
+    
+    var btn   = document.getElementById('btn');
+    btn.addEventListener('click',function(){
+        var inputBoxValue = document.getElementById('input').value;
+        console.log(inputBoxValue);
+    });
+    
+    
+    </script>
+
+    
+</body>
+
+</html>
